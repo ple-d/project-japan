@@ -135,8 +135,13 @@ table {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
 }
-
+  .header_active {
+    background: #0E1D28;
+  }
   .header_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +417,7 @@ table {
 
 .places_card-link {
     position: absolute;
-    top 0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -554,4 +559,30 @@ table {
 .top_card_more:hover, .top_card_more:focus,.top_card_more:active {
     background: #11396d;
 }
+
 /* Top places styles end */
+
+/* Videos styles start */
+
+.videos {
+    width: 100%;
+}
+
+.videos_wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video_item {
+    padding-top: 56.25%;
+}
+
+.video_element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Videos styles end */
