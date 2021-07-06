@@ -1,2 +1,2 @@
 # project-japan
-My first attem to create web-site!
+My first attempt to create web-site!
